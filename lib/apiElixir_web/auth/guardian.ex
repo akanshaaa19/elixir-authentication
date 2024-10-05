@@ -1,5 +1,5 @@
 defmodule ApiElixirWeb.Auth.Guardian do
-  use Guardian, otp_app: :api_elixir
+  use Guardian, otp_app: :apiElixir
   alias ApiElixir.Accounts
 
   def subject_for_token(%{id: id}, _claims) do
